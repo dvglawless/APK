@@ -10,6 +10,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:orientation="vertical"
+    android:background="#95a5a6"
     tools:context=".DuaFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -45,7 +46,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/image4"
-        android:src="@drawable/facebook"
+        android:src="@drawable/twitter"
         android:onClick="OpenFacebook"
         android:layout_marginTop="9dp"
         android:gravity="center"/>
@@ -53,11 +54,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:gravity="right"
+        android:gravity="left"
         android:textSize="20sp"
-        android:text="Silahkan Klik Gambar Di Samping,Maka Akan Terhubung ke Email dan Sosial Media Saya"
+        android:text="My Social Media :"
         android:layout_marginTop="-480dp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:id="@+id/font2"/>
 
 
 

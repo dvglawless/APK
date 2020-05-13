@@ -10,49 +10,53 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:orientation="vertical"
-    tools:context="SatuFragment">
+    android:background="#95a5a6"
+    tools:context="SatuFragment"
+    >
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="150dp"
         android:id="@+id/image"
-        android:src="@drawable/aing"
+        android:src="@drawable/dudu"
         android:layout_marginTop="105dp"
         android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:gravity="left"
+        android:gravity="center"
         android:textSize="20sp"
-        android:text="NIM : 10116299"
+        android:text="NIM : 10117272"
         android:layout_marginTop="30dp"
         android:textColor="#000000" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:gravity="left"
+        android:gravity="center"
         android:textSize="20sp"
-        android:text="Nama : Reyhan Fauzan Nugroho"
+        android:text="Kelas : IF-8 / AKB-8"
         android:layout_marginBottom="2dp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:id="@+id/font"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:gravity="left"
+        android:gravity="center"
         android:textSize="20sp"
-        android:text="Kelas : IF-7"
+        android:text="Nama : Muhammad Aziduddin Haju"
         android:layout_marginTop="2dp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:id="@+id/font"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:gravity="left"
         android:textSize="20sp"
-        android:text="Deskripsi Diri : Saya adalah seorang mahasiswa Universitas Komputer Indonesia"
+        android:text=""
         android:layout_marginTop="20dp"
         android:textColor="#000000" />
 

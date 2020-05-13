@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-//Tanggal Pembuatan : 19 Mei 2019
 
 
 /**
